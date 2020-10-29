@@ -30,7 +30,7 @@
 
                     <h5 class="card-title"><b>{{$course->name}}</b></h5>
                     
-                    <h6 class="card-subtitle mb-2 text-muted">89 Enrollment(s)</h6>
+                    <h5 class="card-subtitle mb-2 text-muted">89 Enrollment(s)</h5>
                     <p class="card-text">{{$course->description}}</p>
                     
                     <br>

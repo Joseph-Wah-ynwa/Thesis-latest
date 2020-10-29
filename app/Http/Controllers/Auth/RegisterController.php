@@ -35,7 +35,7 @@ class RegisterController extends Controller
     {
         // dd(auth()->user()->role);
         if (auth()->user()->role == 1) {
-            return 'teacherHome';
+            return 'teacherHome';   //redirect(url)
             // dd('teacher');
         }else{
             return 'studentHome';
